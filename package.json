@@ -6,6 +6,9 @@
     "start:dev": "nodemon server.js",
     "start:prod": "cross-env NODE_ENV=production node server.js"
   },
+  "engines": {
+      "node":"16.x"
+    },
   "author": "",
   "license": "ISC",
   "description": "",
